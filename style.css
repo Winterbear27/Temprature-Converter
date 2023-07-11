@@ -1,0 +1,31 @@
+body{
+  margin:0;
+ background-image: linear-gradient(135deg, #F6B8B8 , #3ba6c7);
+  background-repeat:no-repeat;
+   font-family: 'Roboto', sans-serif;
+  height:100%;
+   background-attachment: fixed;
+}
+
+.container{
+  width:600px;
+  margin:0 auto;
+}
+#temperature {
+    height: 30px;
+}
+.wrapper{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.card {
+    background-color: white;
+    padding: 25px 50px;
+    width: 450px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: -2px 6px 18px 3px rgba(0,0,0,0.75);
+    margin-top: 200px;
+}
+
